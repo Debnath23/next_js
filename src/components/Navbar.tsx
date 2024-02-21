@@ -18,7 +18,6 @@ export default function Navbar({ className }: { className?: string }) {
             item="Home"
           ></MenuItem>
         </Link>
-
         <MenuItem setActive={setActive} active={active} item="Our Courses">
           <div className="flex flex-col space-y-4 text-sm">
             <HoveredLink href="/courses">All Courses</HoveredLink>
@@ -28,7 +27,6 @@ export default function Navbar({ className }: { className?: string }) {
             <HoveredLink href="/courses">Music Production</HoveredLink>
           </div>
         </MenuItem>
-
         <Link href={"/contact"}>
           <MenuItem
             setActive={setActive}
